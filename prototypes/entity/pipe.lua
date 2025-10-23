@@ -715,3 +715,9 @@ entity.pictures = {
         flags = { "icon" },
     }
 }
+
+if settings.startup["IR3-exclude-flow-animation"] and settings.startup["IR3-exclude-flow-animation"].value == true then
+    entity.pictures.low_temperature_flow = nil
+    entity.pictures.middle_temperature_flow = nil
+    entity.pictures.high_temperature_flow = nil
+end
