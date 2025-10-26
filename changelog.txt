@@ -1,20 +1,23 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 26.10.2025
+  Bugfixes:
+    - Corrected pipe-to-ground pictures definition
+  Changes:
+    - None
+---------------------------------------------------------------------------------------------------
 Version: 0.0.3
 Date: 23.10.2025
   Bugfixes:
     - None
   Changes:
     - Updated thumbnail
-  Features:
-    - None
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
 Date: 23.10.2025
   Bugfixes:
     - None
   Changes:
-    - None
-  Features:
     - Added startup setting to exclude pipe fluid animation (default: disabled)
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
@@ -22,6 +25,4 @@ Date: 18.10.2025
   Bugfixes:
     - None
   Changes:
-    - None
-  Features:
     - Initial release

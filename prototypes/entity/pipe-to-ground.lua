@@ -81,75 +81,75 @@ entity.pictures = {
                 draw_as_shadow = true
             }
         }
-    },
+    }
+}
 
-    visualization = {
-        north = {
-            filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
-            priority = "extra-high",
-            x = 64,
-            size = 64,
-            scale = 0.5,
-            flags = { "icon" }
-        },
-        east = {
-            filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
-            priority = "extra-high",
-            x = 128,
-            size = 64,
-            scale = 0.5,
-            flags = { "icon" }
-        },
-        south = {
-            filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
-            priority = "extra-high",
-            x = 192,
-            size = 64,
-            scale = 0.5,
-            flags = { "icon" }
-        },
-        west = {
-            filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
-            priority = "extra-high",
-            x = 256,
-            size = 64,
-            scale = 0.5,
-            flags = { "icon" }
-        }
+entity.visualization = {
+    north = {
+        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+        priority = "extra-high",
+        x = 64,
+        size = 64,
+        scale = 0.5,
+        flags = { "icon" }
     },
+    east = {
+        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+        priority = "extra-high",
+        x = 128,
+        size = 64,
+        scale = 0.5,
+        flags = { "icon" }
+    },
+    south = {
+        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+        priority = "extra-high",
+        x = 192,
+        size = 64,
+        scale = 0.5,
+        flags = { "icon" }
+    },
+    west = {
+        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+        priority = "extra-high",
+        x = 256,
+        size = 64,
+        scale = 0.5,
+        flags = { "icon" }
+    }
+}
 
-    disabled_visualization = {
-        north = {
-            filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
-            priority = "extra-high",
-            x = 64,
-            size = 64,
-            scale = 0.5,
-            flags = { "icon" }
-        },
-        east = {
-            filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
-            priority = "extra-high",
-            x = 128,
-            size = 64,
-            scale = 0.5,
-            flags = { "icon" }
-        },
-        south = {
-            filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
-            priority = "extra-high",
-            x = 192,
-            size = 64,
-            scale = 0.5,
-            flags = { "icon" }
-        },
-        west = {
-            filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
-            priority = "extra-high",
-            x = 256,
-            size = 64,
-            scale = 0.5,
-            flags = { "icon" }
-        }
+entity.disabled_visualization = {
+    north = {
+        filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+        priority = "extra-high",
+        x = 64,
+        size = 64,
+        scale = 0.5,
+        flags = { "icon" }
+    },
+    east = {
+        filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+        priority = "extra-high",
+        x = 128,
+        size = 64,
+        scale = 0.5,
+        flags = { "icon" }
+    },
+    south = {
+        filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+        priority = "extra-high",
+        x = 192,
+        size = 64,
+        scale = 0.5,
+        flags = { "icon" }
+    },
+    west = {
+        filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+        priority = "extra-high",
+        x = 256,
+        size = 64,
+        scale = 0.5,
+        flags = { "icon" }
     }
 }
