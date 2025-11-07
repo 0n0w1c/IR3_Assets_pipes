@@ -744,8 +744,18 @@ entity.pictures                       = {
     }
 }
 
-if settings.startup["IR3-exclude-flow-animation"] and settings.startup["IR3-exclude-flow-animation"].value == true then
+if not settings.startup["IR3-enable-flow-animation"].value == true then
     entity.pictures.low_temperature_flow = nil
     entity.pictures.middle_temperature_flow = nil
     entity.pictures.high_temperature_flow = nil
+    entity.pictures.gas_flow = {
+        filename = "__base__/graphics/entity/pipe/fluid-background.png",
+        frame_count = 1,
+        line_length = 1,
+        axially_symmetrical = false,
+        height = 40,
+        priority = "extra-high",
+        scale = 0.5,
+        width = 64
+    }
 end

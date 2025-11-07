@@ -1,6 +1,6 @@
 # IR3 Assets: pipes
 
-Reskins the pipes using IR3 graphical assets, if installed.  
+Reskins the pipes and optionally adds a small storage tank using IR3 graphical assets, if installed.  
 
 *Requires the manual installation of the Industrial Revolution 3 Asset Packs.*
 
@@ -12,7 +12,8 @@ For licensing concerns: [FAQ](https://mods.factorio.com/mod/IR3_Assets_assemblin
 
 See the mod [IR3 Assets: Some assembly required](https://mods.factorio.com/mod/IR3_Assets_some_assembly_required)
 
-*Startup setting to exclude pipe fluid animation*
+*Startup setting to enable small storage tank (default:disabled)*
+*Startup setting to enable flow animation (default:disabled)*
 
 If the IR3 Assets are not installed, this mod will do nothing.
 

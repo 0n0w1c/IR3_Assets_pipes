@@ -1,7 +1,8 @@
 data:extend({
     {
         type = "explosion",
-        name = "pipe-explosion",
+        name = "pipe-to-ground-explosion",
+        hidden_in_factoriopedia = true,
         animations = {
             {
                 animation_speed = 0.5,
@@ -33,7 +34,7 @@ data:extend({
                         },
                         particle_name = "trailing-iron-particle",
                         probability = 1,
-                        repeat_count = 5,
+                        repeat_count = 19,
                         speed_from_center = 0.02,
                         speed_from_center_deviation = 0.01,
                         type = "create-particle"
@@ -47,13 +48,13 @@ data:extend({
             "not-on-map",
             "placeable-off-grid"
         },
-        icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/pipe.png",
+        icon = "__IndustrialRevolution3Assets1__/graphics/icons/64/pipe-to-ground.png",
         icon_mipmaps = 4,
         icon_size = 64,
         localised_name = {
             "entity-name.ir-explosion",
             {
-                "entity-name.pipe"
+                "entity-name.pipe-to-ground"
             }
         },
         render_layer = "object",
